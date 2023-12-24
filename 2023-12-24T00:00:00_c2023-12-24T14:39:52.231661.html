@@ -1,0 +1,2541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "bda59629976c4dc08046c831186d0607": {
+      "model_name": "LeafletTileLayerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+        "base": true,
+        "max_zoom": 20,
+        "min_zoom": 1,
+        "name": "Dark",
+        "options": [
+          "attribution",
+          "bounds",
+          "detect_retina",
+          "max_native_zoom",
+          "max_zoom",
+          "min_native_zoom",
+          "min_zoom",
+          "no_wrap",
+          "tile_size",
+          "tms",
+          "zoom_offset"
+        ],
+        "subitems": [],
+        "url": "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+      }
+    },
+    "747706c82ac34e28a646b8f15bcecf69": {
+      "model_name": "LeafletTileLayerModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+        "base": true,
+        "max_zoom": 20,
+        "min_zoom": 1,
+        "name": "Light",
+        "options": [
+          "attribution",
+          "bounds",
+          "detect_retina",
+          "max_native_zoom",
+          "max_zoom",
+          "min_native_zoom",
+          "min_zoom",
+          "no_wrap",
+          "tile_size",
+          "tms",
+          "zoom_offset"
+        ],
+        "subitems": [],
+        "url": "https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+      }
+    },
+    "f453154df8944ee3be07a6f9edae90ee": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "height": "800px"
+      }
+    },
+    "1d978c350ec647488b596e72ff72157e": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {}
+    },
+    "aa32e15ab0474b528d05d365b39ee089": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "cursor": "move"
+      }
+    },
+    "ea954b4824e54272a10d079ee25834a9": {
+      "model_name": "LeafletMapStyleModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {}
+    },
+    "af686b5816e343868b3f438da7d4e0bf": {
+      "model_name": "LeafletMapModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "_dom_classes": [],
+        "center": [
+          0,
+          200
+        ],
+        "controls": [
+          "IPY_MODEL_1dbd014278864a69986f518893945a42",
+          "IPY_MODEL_0127c6cb0ab940389e249e5786ba08a1",
+          "IPY_MODEL_3f423104cd004d9bb2d72dcefc711309",
+          "IPY_MODEL_24107a55637a40f29a4e8886976c3fe3",
+          "IPY_MODEL_a81d2dc3d6164c8db1faa7caad80f1aa",
+          "IPY_MODEL_9ed84df72115497e8f6046f6ad68fcfe"
+        ],
+        "crs": {
+          "name": "EPSG3857",
+          "custom": false
+        },
+        "default_style": "IPY_MODEL_1d978c350ec647488b596e72ff72157e",
+        "dragging_style": "IPY_MODEL_aa32e15ab0474b528d05d365b39ee089",
+        "layers": [
+          "IPY_MODEL_747706c82ac34e28a646b8f15bcecf69",
+          "IPY_MODEL_bda59629976c4dc08046c831186d0607",
+          "IPY_MODEL_0ca11f73c71e4345b0bf7c4aae4285ca",
+          "IPY_MODEL_bfd861df704e4d2383250c4cc018a0fa",
+          "IPY_MODEL_767d435e09a645e9941d78e078b91f5b",
+          "IPY_MODEL_ad4223f4fe974869afec5ff01078fcb4",
+          "IPY_MODEL_6d546f8ca36f4e6096096613b5256d69",
+          "IPY_MODEL_ff12bb4026cd47ab8fa4601c2752af3b",
+          "IPY_MODEL_5ad9f397642c48ea84c8b6815f23a96c",
+          "IPY_MODEL_6fef453458a3480eb56260435fe0483e",
+          "IPY_MODEL_514bed7db2fd4deab378563623a2db12",
+          "IPY_MODEL_7c300d04af894b568c70c4d6f677097b",
+          "IPY_MODEL_683f9baf17594c7a9eb0fbec93607562",
+          "IPY_MODEL_c89cfab36dd346a1a6613b85044fd627",
+          "IPY_MODEL_6f4b6424ede34aaba5b2f4cff09efe4c"
+        ],
+        "layout": "IPY_MODEL_f453154df8944ee3be07a6f9edae90ee",
+        "options": [
+          "bounce_at_zoom_limits",
+          "box_zoom",
+          "center",
+          "close_popup_on_click",
+          "double_click_zoom",
+          "dragging",
+          "fullscreen",
+          "inertia",
+          "inertia_deceleration",
+          "inertia_max_speed",
+          "interpolation",
+          "keyboard",
+          "keyboard_pan_offset",
+          "keyboard_zoom_offset",
+          "max_zoom",
+          "min_zoom",
+          "prefer_canvas",
+          "scroll_wheel_zoom",
+          "tap",
+          "tap_tolerance",
+          "touch_zoom",
+          "world_copy_jump",
+          "zoom",
+          "zoom_animation_threshold",
+          "zoom_delta",
+          "zoom_snap"
+        ],
+        "panes": {},
+        "style": "IPY_MODEL_ea954b4824e54272a10d079ee25834a9",
+        "zoom": 1.5
+      }
+    },
+    "1dbd014278864a69986f518893945a42": {
+      "model_name": "LeafletZoomControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "options": [
+          "position",
+          "zoom_in_text",
+          "zoom_in_title",
+          "zoom_out_text",
+          "zoom_out_title"
+        ]
+      }
+    },
+    "0127c6cb0ab940389e249e5786ba08a1": {
+      "model_name": "LeafletAttributionControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "options": [
+          "position",
+          "prefix"
+        ],
+        "position": "bottomright"
+      }
+    },
+    "272e2949f5cd4cd6ac37f3f9491932ce": {
+      "model_name": "LayoutModel",
+      "model_module": "@jupyter-widgets/base",
+      "model_module_version": "1.2.0",
+      "state": {
+        "margin": "0px 20px 20px 20px"
+      }
+    },
+    "5412ddd7ed1d4535bc52f0b6555d449f": {
+      "model_name": "DescriptionStyleModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {}
+    },
+    "fec91dd661cd4c54a983d88960ed6df5": {
+      "model_name": "HTMLModel",
+      "model_module": "@jupyter-widgets/controls",
+      "model_module_version": "1.5.0",
+      "state": {
+        "_dom_classes": [],
+        "layout": "IPY_MODEL_272e2949f5cd4cd6ac37f3f9491932ce",
+        "style": "IPY_MODEL_5412ddd7ed1d4535bc52f0b6555d449f",
+        "value": "\n    <div id='DISTURBANCE_PROPS'>\n    <h4>Disturbance Info:</h4>\n    Mouse hover over a point</div>\n    "
+      }
+    },
+    "3f423104cd004d9bb2d72dcefc711309": {
+      "model_name": "LeafletWidgetControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "options": [
+          "position",
+          "transparent_bg"
+        ],
+        "position": "bottomright",
+        "widget": "IPY_MODEL_fec91dd661cd4c54a983d88960ed6df5"
+      }
+    },
+    "0ca11f73c71e4345b0bf7c4aae4285ca": {
+      "model_name": "LeafletImageOverlayModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "bounds": [
+          [
+            8,
+            40
+          ],
+          [
+            72,
+            130
+          ]
+        ],
+        "name": "Title",
+        "options": [
+          "attribution"
+        ],
+        "subitems": [],
+        "url": "data:image/png;base64,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1KiRJOmRRx7R0KFDvXWxsbG67bbbJEk7d+70ls+bN09///vfdf/996tp06Y+9dWrV0/9+vUr15e6deuqTp06+vGPf1xhX4OpM5j+VueZZ55RXl6eRowY4bP8qquu8u78efPNN8u1F4y6desqKipKHTt2lHSuD88++6xq166txx57TNu2bVPPnj0D7mMw4+Z82dnZSkpKUnx8vGbPnl3htqmpqcrIyFBhYWG5Ns5fhpr5wZyDDpWyEyxyc3MvSBtz5sxRZGSkevfuXW5dr1699M9//lNXXXWV6tev71MmMTGx3J0qpXefZGVllaurtC/16tUrt65ly5aSpMOHD3vLXnrpJUmqNDSruiXu/HPONa0zmP5WpqSkRG+//bYiIiIqvOhbet0gJydH27dv17/+67/6XXdVSo9Jjx49Kpy4E2gfgxk3ZR08eFADBw7UpEmTNGjQoEr3u3379tqzZ4+Sk5P1+uuve9dnevfurezs7Cp6jEAR0AFq1qyZdydG2b+mQyUtLU2HDx9W69atK70Aee2115ZbFhMTo9GjR0s6FzirVq3S4sWLdeTIEUnnpvYGojQwSm8RO3jwoBdUFbUfjJrUGcr+pqamKjs7W926dav2wuT1118f0H76IywsrMLlgfQx2HFTKjMzU7feeqtKSkrUp0+fKvd3ypQpGjlypNauXau4uDhNnjxZEydOVGRkZLlvQagZTnEEqOxV8LJf/0OlNPyLiooCLltSUqL58+erZ8+eSktL0x//+EeNHz8+JPv1v//7v96/QzV5pKZ1hqq/ZQOvT58+VX6aNWsWcP014W8fazJuJKlp06aKjo7WwYMHdffdd1f5P7gRI0bov/7rvxQREaG8vDw9/fTT6tKli9avXx9U26gcAR2gsl/FL8SANDt3W9PRo0cD+rp4/Phx9e3bV88//7yWLl2qiRMnqmHDhiHbr4KCAu/fpedGL2Wdoexv6THfu3evU+dQA+ljsOOmVP369bVkyRI1aNBAn332mZ566qkqtx8/fry2bNniXatIT09XQkKCFixYEHDbqBwBHaCRI0d6f+1t375d//jHP0Ja/zXXXCPp3C/c8uXLK93u7NmzysjI8P777rvv1t/+9jdNnz69Rvd8V6bsX46l9/deyjpD2d/S8+2FhYVat25dldsGM109WIH0MdhxU1ZcXJxmz54tSZoxY4YWLVpU4Xb79++XJHXr1k0bNmzQ4sWL1bJlS5WUlGjs2LEX5NTfDxUBHaDGjRtr6tSp3n//9re/9SauVOfkyZOaO3duldt07NjRC4xp06bp1KlTFW43ZcoUb5bazp079emnn0qSz6QL6f/+sqqprl27enetvP3225e0zmD7W3qu9/yfV1xcnHdHy3PPPVfp1OzXXntNe/fu9Xs/K2vPH4H2MZhxU5GRI0fqvvvukySNGjVKu3btKrdN2fEvSYMHD9bnn3+uqKgo5eXl6auvvqq8YwjIDz6gzUx5eXmS5PfX2yeffFK//OUvJUl//etfNXLkyGofeL5t2zb16tVLMTExVW4XFhamRx99VJKUkZGhfv36ad++fd76vLw8TZo0SadOnfLuJjh58qS3fsuWLT71bdq0SdK5W7XO/8Wu6jzj+ecy69Sp492CtmHDBr311lvlyqSmpko692D+85VtqzQAg60z2P6WXsAqO92+sLBQ4eHhXiht3LhRw4cP9zlNUFxcrJdeekkzZ870fjb+qKy9UqX7V9HPIdA+BjNuyu5DWbNnz1aXLl10+vRp/du//Vu5v4hXrVpV7pkybdu21e233y5Juvrqq8vViSBd6huxa/yp4USVrVu3ehMoJHmzr6pz5swZe+SRR7xyHTp0sJSUFMvKyvK2KS4uts8++8yGDx9urVu3ttWrV/tVd1FRkc+MxbCwMOvWrZvdeuut1qhRI+vdu7cVFBR42584ccKbTBEdHW3Tp0+3WbNmWd++fe3hhx/26nnhhRds0qRJlp+fbydPnvRmsv3ud78rtw/du3c3SXbTTTf5tNOuXTuTZLVr17aJEyfa3//+d1u3bp39+te/to4dO3ptJSUl2YIFC7yyzzzzjLeudLZgsHUG018zs8GDB5ski4mJsTVr1lhKSoqNHz/ezM5NSGnfvr1XNioqyhITE+3OO++0mJgYi4mJsdTUVL9+fqWqas/MvEk4PXr0KFc2mD4GOm7MzPr162eSLC4uzmf57t27vZmNPXv2tKNHj3rrwsPD7YknnvDZvqCgwNq1a2eJiYkBHaML7jKfqHLJd6DGnyADeunSpTZ48GBvFmHpp0mTJjZ06FBbsmSJX/Vs2rTJfv7zn1vdunVNktWqVctatWplrVu3toiICIuNjbVp06bZqVOnAtq/3NxcGz16tNWpU8fbt/r169sTTzxheXl55bZ/7733rEGDBt62ffv2tR07dlhhYaEXgHXq1LFXX33Vli1bZvHx8d620dHR9thjj9m3335rO3bssEGDBvkck3vuucd73vXBgwftrrvu8sK99Ji98cYb9tRTT1njxo3twQcftHXr1llJSYn99a9/tUcffdSioqK87Tt27GhTpkzxgjPQOgPtb6nt27db48aNvfAaNmyYz7E8ePCgDRw40JthKcnCw8NtyJAhduDAgYB+flW196c//cmbQl76SUxMtOeeey7on2mg4+add96xAQMG+Bzz22+/3Zs5OnfuXGvWrJm3rlmzZvbYY4/Z4cOH7eqrr7bY2FhLTk62uXPn2pw5cyw+Pt6GDBli2dnZAR+nC+oyD+gws9Cco7xkwsJMDvQhLy9P27Zt09GjR1VQUKAWLVqobdu2FT5sKBDZ2dneg3ZuuummSicZSOcmLuzevVvXXHON2rVr5y0/efKkdu7c6XOesqaOHDmitLQ01atXT926dVPdunWVmZmpFi1aqE6dOhelzmD6m52drV27dum6666r9DGx3333ndLS0hQWFqYuXbqocePGQfXH3/aqEuzPNJBxE6jTp0+rQYMGOn36tFJTU5WTk6PY2NiQ3R8fUmFhklnFN5pfBghoAFeuyzygf/AXCQHAVQQ0ADiKgAYARxHQAOAoAhoAHEVAA4CjfjDPg16xYoU3RbYiI0aMUOfOnS/iHrkjNzdXc+bM0bJly5SZmamGDRvqtttu04QJE6o9Jps2bdIrr7yiY8eOqbi4WI0aNdK4ceN0xx13hLy9vLw8vfzyy3r//feVmZmpevXq6dZbb9VTTz2lrl27Bt3/iuzfv1/PP/+8EhISNHjw4Cq3rcnxq04o6/7yyy915513avbs2T4P5N+8ebPef//9oPdx0KBB+tGPfuSzLJhxUZNyV6xLPVOmxh8/ZxKeOXPGvv76a0tMTPSZCjt79mw7dOiQN0PthyYtLc3atm3rM6ut9FO3bl2fdxWe74UXXrCIiAh78803vWUpKSlWq1Yte/rpp0PaXm5urvXo0cPq169vN910k7Vv396bBVe3bl1bu3ZtzQ7E/3fgwAEbM2aMNxOv7HT1UPbHH6GsOy8vzzp16mSS7K233vJZN2PGDK/euLg4GzBggN177702bNgw792UkZGRNmzYMLv33nttwIABXl2SbM6cOT71BTMualKuSpf5TMJLvgM1/gQ41Xvjxo3ewOrevXtAZS+W3Nzci9JOUVGRde7c2fr06WPLly+3Xbt22dq1a+3+++/3jlFERIR99dVX5cq+9957JskeffTRcutGjx5tkiwlJSVk7Q0bNswmTJjgM5V448aNdvXVV5sku+GGG2p8PObPn2/PPPOMt//VBXRN+lOdUNc9ZswYr9z5Af3ss89aREREhf+Tq+qFymvWrLHatWvbjBkzvGXBjIualKsWAX15BfSePXu8gdqvX7+Ayl4Mq1ev9nmT9oX0yiuv2MCBAyv89vDyyy97x+m+++7zWZebm+sF4759+8qV/Z//+R+TZE2bNrWcnJwat/fFF1/YpEmTKuzDwoULvXKHDh3yq9/VOXnypF8BHWx//BHKuletWmW9e/e2uLi4CgN6ypQp9pvf/KbCstW98X7EiBH27LPPmlnw4yLYcn4hoC+vgN67d683uPv37x9Q2QstMzPTmjdvbq+88spFaa9nz55VhlqXLl1MknXt2tVn+UsvvWSSLDY2ttKypQ/zmTVrVo3be/fdd62oqKjCMt9++6338zx58mSldQciPz/fr4AOtj/+CFXd3333nXXo0MEyMjK8MucH9IQJE+yjjz6qsHx1Ab1ixQqbMmWKmQU/LoIt55fLPKC5i8MRubm5GjhwYJUPUw+lgoICDRo0qMrnU5e+Hfr8l5CWvmnjpptuqrTszTffLElavHhxjdu75557FBERUWGZ0udw33777d5D9y+GmvTnYtY9atQoTZ06tco3sowbN059+/YNaB9L/exnP9NDDz0kKbhxUZNyPwQ/mLs4QqmoqEjvvvuuVq9erbCwMGVkZKhVq1YaO3asfvrTn5bbfvfu3XrxxRdlZjp9+rRatmypzp07q2/fvoqLi1N6erqGDBnivfZp0aJF3pPIJkyYUO6NGhXZt2+fxo8fr9jYWM2YMcN7K3dlIiMj9dvf/tav/nbq1Mn7d2Fhofear7JPVztf6duvt2zZoqKioqDbq86SJUsUExOjN954w+8yoXCh+hPKuufOnau6det6L0WoTE1eGRYZGanWrVsHPS7MLKhywT4x8XJDQAfo8OHDSkhIUFhYmNavX6/mzZvr1KlT6t+/v/r166e1a9f6vLb+o48+0qBBg/TRRx95L9hMSUnRb37zG61cuVJxcXEqKSnRtGnTNGzYMOXk5Khr1676+c9/Lkl+v8Z+6tSp+vDDD/Xhhx8qISFBycnJNe5renq6pHN/wZZKTU31XuFU1aNLS9cVFxcrLS1NN954Y1DtVeXjjz/W0qVLtXXrVrVq1cqvMhdToP0JZd179uzRH/7wB33xxRchb7siwY6Ls2fPXrDxdCXgFEeA/v3f/12pqamKj49X8+bNJUlRUVF68MEHdfbsWc2aNctn+yeffFLdu3f3wlmS7rvvPt1zzz3eW61vuOEGJScne1/ju3TpouTkZCUnJ/sd0F26dJEk1atXz6+/uKuTk5OjDRs2qFOnTj5hX/YUTOn7BCtS9u3T/py2qay9ihw5ckSjR49WYmKiduzYobFjx+q7776rto2LKZD+hLruM2fO6Ne//rVmz56tJk2ahLTtygQ7Li7UeLpSENAB+v777yWd+yUoqzSst23b5rM8NTVVGRkZ5d53+MADD/j9DkR/PP3009qwYYO++eabkAT022+/rfz8fM2bN0/h4eHe8rLvoqvqa2ZkZKT378peYOpPe+dLSUnRnXfeqZSUlHNXuXXuTdvx8fE6evRote1cLP7250LUPW3aNN1yyy3q169fSNutSrDj4kKNpysFAR2gOXPm6NVXX9XMmTN9lpderMrKyvJZ3r59ex06dEjJycne6+qlcxd5+vfvH9J9u+2229S6desa15OVlaVp06Zp6tSp6tWrl8+6sr8olb39WvJ9EWp15wurau989913n7Zv366srCwtWbLEOwe7b98+/e53v6uy7MUSSH9CXffGjRu1YsUKTZ8+PaTtVifYcXEhxtOVhHPQAYqJidHo0aMlnRtQq1at0uLFi3XkyBFJ5d/QPGXKFI0cOVJr165VXFycJk+erIkTJyoyMtLv0xcX2+OPP66EhIQKA6/snRLnv/m7rLLfDqq7u6Kq9ipTv359DRo0SMnJyUpISNCmTZv05z//WXPmzPG22blzZ7lvOtK5N2D36NHD77YCVV1/arJfVdWdk5OjUaNG6d1331W9evWC2/kgBTsuwsL+72UnoRpPVxICOgglJSV6/fXX9eqrr2ro0KH64x//qPXr12vt2rXlth0xYoSysrL05JNPKi8vT08//bQWLFig119/3edioitmzZqlI0eOaMWKFT6/PKXKnj45ceJEpfWUXde+ffug26tOZGSk/vM//1O9e/fWsWPHvPflSVL//v0r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"
+      }
+    },
+    "24107a55637a40f29a4e8886976c3fe3": {
+      "model_name": "LeafletLegendControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "legend": {
+          "2 days": "red",
+          "5 days": "yellow",
+          "7 days": "springgreen",
+          "10 days": "darkturquoise",
+          "14 days": "blue",
+          "14+ days": "orchid"
+        },
+        "options": [
+          "position"
+        ],
+        "position": "bottomleft",
+        "title": "Days+Init"
+      }
+    },
+    "01d70596689f432c9a954e4cb699b416": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "orchid",
+          "fill": true,
+          "fillColor": "orchid",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "bfd861df704e4d2383250c4cc018a0fa": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_01d70596689f432c9a954e4cb699b416"
+        ],
+        "name": "14+d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "62c1bf62306048f09a7bce5532d15049": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "413.50",
+                  "-22.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.25",
+                "lon": "53.50",
+                "lon_repeat": "413.50",
+                "valid_time": "2024-01-05T00:00:00",
+                "time_step": 288,
+                "roci": "240.3",
+                "vmax10m_in_roci": "16.28",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1002.1",
+                "prev_lat": "-22.00",
+                "prev_lon": 53.25,
+                "prev_lon_repeat": "413.25"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-306.50",
+                  "-22.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.25",
+                "lon": "53.50",
+                "lon_repeat": "-306.50",
+                "valid_time": "2024-01-05T00:00:00",
+                "time_step": 288,
+                "roci": "240.3",
+                "vmax10m_in_roci": "16.28",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1002.1",
+                "prev_lat": "-22.00",
+                "prev_lon": 53.25,
+                "prev_lon_repeat": "-306.75"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "53.50",
+                  "-22.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.25",
+                "lon": "53.50",
+                "lon_repeat": "53.50",
+                "valid_time": "2024-01-05T00:00:00",
+                "time_step": 288,
+                "roci": "240.3",
+                "vmax10m_in_roci": "16.28",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1002.1",
+                "prev_lat": "-22.00",
+                "prev_lon": 53.25,
+                "prev_lon_repeat": 53.25
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "413.25",
+                  "-22.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.00",
+                "lon": "53.25",
+                "lon_repeat": "413.25",
+                "valid_time": "2024-01-04T18:00:00",
+                "time_step": 282,
+                "roci": "289.9",
+                "vmax10m_in_roci": "22.04",
+                "closed_isobar_delta": 12,
+                "mslp_value": "999.0",
+                "prev_lat": "-21.50",
+                "prev_lon": 53.0,
+                "prev_lon_repeat": "413.00"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-306.75",
+                  "-22.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.00",
+                "lon": "53.25",
+                "lon_repeat": "-306.75",
+                "valid_time": "2024-01-04T18:00:00",
+                "time_step": 282,
+                "roci": "289.9",
+                "vmax10m_in_roci": "22.04",
+                "closed_isobar_delta": 12,
+                "mslp_value": "999.0",
+                "prev_lat": "-21.50",
+                "prev_lon": 53.0,
+                "prev_lon_repeat": "-307.00"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "53.25",
+                  "-22.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-22.00",
+                "lon": "53.25",
+                "lon_repeat": "53.25",
+                "valid_time": "2024-01-04T18:00:00",
+                "time_step": 282,
+                "roci": "289.9",
+                "vmax10m_in_roci": "22.04",
+                "closed_isobar_delta": 12,
+                "mslp_value": "999.0",
+                "prev_lat": "-21.50",
+                "prev_lon": 53.0,
+                "prev_lon_repeat": 53.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "413.00",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "53.00",
+                "lon_repeat": "413.00",
+                "valid_time": "2024-01-04T12:00:00",
+                "time_step": 276,
+                "roci": "213.2",
+                "vmax10m_in_roci": "16.41",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1001.3",
+                "prev_lat": "-21.50",
+                "prev_lon": 52.5,
+                "prev_lon_repeat": "412.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-307.00",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "53.00",
+                "lon_repeat": "-307.00",
+                "valid_time": "2024-01-04T12:00:00",
+                "time_step": 276,
+                "roci": "213.2",
+                "vmax10m_in_roci": "16.41",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1001.3",
+                "prev_lat": "-21.50",
+                "prev_lon": 52.5,
+                "prev_lon_repeat": "-307.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "53.00",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "53.00",
+                "lon_repeat": "53.00",
+                "valid_time": "2024-01-04T12:00:00",
+                "time_step": 276,
+                "roci": "213.2",
+                "vmax10m_in_roci": "16.41",
+                "closed_isobar_delta": 7,
+                "mslp_value": "1001.3",
+                "prev_lat": "-21.50",
+                "prev_lon": 52.5,
+                "prev_lon_repeat": 52.5
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "412.50",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "52.50",
+                "lon_repeat": "412.50",
+                "valid_time": "2024-01-04T06:00:00",
+                "time_step": 270,
+                "roci": "335.8",
+                "vmax10m_in_roci": "18.74",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1003.4",
+                "prev_lat": "-21.00",
+                "prev_lon": 52.75,
+                "prev_lon_repeat": "412.75"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-307.50",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "52.50",
+                "lon_repeat": "-307.50",
+                "valid_time": "2024-01-04T06:00:00",
+                "time_step": 270,
+                "roci": "335.8",
+                "vmax10m_in_roci": "18.74",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1003.4",
+                "prev_lat": "-21.00",
+                "prev_lon": 52.75,
+                "prev_lon_repeat": "-307.25"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "52.50",
+                  "-21.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.50",
+                "lon": "52.50",
+                "lon_repeat": "52.50",
+                "valid_time": "2024-01-04T06:00:00",
+                "time_step": 270,
+                "roci": "335.8",
+                "vmax10m_in_roci": "18.74",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1003.4",
+                "prev_lat": "-21.00",
+                "prev_lon": 52.75,
+                "prev_lon_repeat": 52.75
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "412.75",
+                  "-21.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.00",
+                "lon": "52.75",
+                "lon_repeat": "412.75",
+                "valid_time": "2024-01-04T00:00:00",
+                "time_step": 264,
+                "roci": "325.6",
+                "vmax10m_in_roci": "16.47",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.4",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-307.25",
+                  "-21.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.00",
+                "lon": "52.75",
+                "lon_repeat": "-307.25",
+                "valid_time": "2024-01-04T00:00:00",
+                "time_step": 264,
+                "roci": "325.6",
+                "vmax10m_in_roci": "16.47",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.4",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "52.75",
+                  "-21.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "-21.00",
+                "lon": "52.75",
+                "lon_repeat": "52.75",
+                "valid_time": "2024-01-04T00:00:00",
+                "time_step": 264,
+                "roci": "325.6",
+                "vmax10m_in_roci": "16.47",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.4",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            }
+          ]
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "blue",
+          "fill": true,
+          "fillColor": "blue",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "767d435e09a645e9941d78e078b91f5b": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_62c1bf62306048f09a7bce5532d15049"
+        ],
+        "name": "14d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "f2ad5acc06df4f5aab0090313044fae6": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "darkturquoise",
+          "fill": true,
+          "fillColor": "darkturquoise",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "ad4223f4fe974869afec5ff01078fcb4": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_f2ad5acc06df4f5aab0090313044fae6"
+        ],
+        "name": "10d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "35a846e0a6df480097b4ce7c210a2d56": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "444.50",
+                  "10.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "10.00",
+                "lon": "84.50",
+                "lon_repeat": "444.50",
+                "valid_time": "2023-12-31T00:00:00",
+                "time_step": 168,
+                "roci": "146.9",
+                "vmax10m_in_roci": "16.10",
+                "closed_isobar_delta": 5,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.25,
+                "prev_lon_repeat": "445.25"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-275.50",
+                  "10.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "10.00",
+                "lon": "84.50",
+                "lon_repeat": "-275.50",
+                "valid_time": "2023-12-31T00:00:00",
+                "time_step": 168,
+                "roci": "146.9",
+                "vmax10m_in_roci": "16.10",
+                "closed_isobar_delta": 5,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.25,
+                "prev_lon_repeat": "-274.75"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "84.50",
+                  "10.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "10.00",
+                "lon": "84.50",
+                "lon_repeat": "84.50",
+                "valid_time": "2023-12-31T00:00:00",
+                "time_step": 168,
+                "roci": "146.9",
+                "vmax10m_in_roci": "16.10",
+                "closed_isobar_delta": 5,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.25,
+                "prev_lon_repeat": 85.25
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "445.25",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.25",
+                "lon_repeat": "445.25",
+                "valid_time": "2023-12-30T18:00:00",
+                "time_step": 162,
+                "roci": "92.4",
+                "vmax10m_in_roci": "17.73",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.75,
+                "prev_lon_repeat": "445.75"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-274.75",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.25",
+                "lon_repeat": "-274.75",
+                "valid_time": "2023-12-30T18:00:00",
+                "time_step": 162,
+                "roci": "92.4",
+                "vmax10m_in_roci": "17.73",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.75,
+                "prev_lon_repeat": "-274.25"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "85.25",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.25",
+                "lon_repeat": "85.25",
+                "valid_time": "2023-12-30T18:00:00",
+                "time_step": 162,
+                "roci": "92.4",
+                "vmax10m_in_roci": "17.73",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1004.4",
+                "prev_lat": "9.75",
+                "prev_lon": 85.75,
+                "prev_lon_repeat": 85.75
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "445.75",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.75",
+                "lon_repeat": "445.75",
+                "valid_time": "2023-12-30T12:00:00",
+                "time_step": 156,
+                "roci": "85.7",
+                "vmax10m_in_roci": "20.57",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1000.9",
+                "prev_lat": "9.50",
+                "prev_lon": 86.5,
+                "prev_lon_repeat": "446.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-274.25",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.75",
+                "lon_repeat": "-274.25",
+                "valid_time": "2023-12-30T12:00:00",
+                "time_step": 156,
+                "roci": "85.7",
+                "vmax10m_in_roci": "20.57",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1000.9",
+                "prev_lat": "9.50",
+                "prev_lon": 86.5,
+                "prev_lon_repeat": "-273.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "85.75",
+                  "9.75"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.75",
+                "lon": "85.75",
+                "lon_repeat": "85.75",
+                "valid_time": "2023-12-30T12:00:00",
+                "time_step": 156,
+                "roci": "85.7",
+                "vmax10m_in_roci": "20.57",
+                "closed_isobar_delta": 8,
+                "mslp_value": "1000.9",
+                "prev_lat": "9.50",
+                "prev_lon": 86.5,
+                "prev_lon_repeat": 86.5
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "446.50",
+                  "9.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.50",
+                "lon": "86.50",
+                "lon_repeat": "446.50",
+                "valid_time": "2023-12-30T06:00:00",
+                "time_step": 150,
+                "roci": "122.5",
+                "vmax10m_in_roci": "21.07",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.4",
+                "prev_lat": "8.50",
+                "prev_lon": 87.0,
+                "prev_lon_repeat": "447.00"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-273.50",
+                  "9.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.50",
+                "lon": "86.50",
+                "lon_repeat": "-273.50",
+                "valid_time": "2023-12-30T06:00:00",
+                "time_step": 150,
+                "roci": "122.5",
+                "vmax10m_in_roci": "21.07",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.4",
+                "prev_lat": "8.50",
+                "prev_lon": 87.0,
+                "prev_lon_repeat": "-273.00"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "86.50",
+                  "9.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "9.50",
+                "lon": "86.50",
+                "lon_repeat": "86.50",
+                "valid_time": "2023-12-30T06:00:00",
+                "time_step": 150,
+                "roci": "122.5",
+                "vmax10m_in_roci": "21.07",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.4",
+                "prev_lat": "8.50",
+                "prev_lon": 87.0,
+                "prev_lon_repeat": 87.0
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "447.00",
+                  "8.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.50",
+                "lon": "87.00",
+                "lon_repeat": "447.00",
+                "valid_time": "2023-12-30T00:00:00",
+                "time_step": 144,
+                "roci": "123.8",
+                "vmax10m_in_roci": "19.95",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1000.2",
+                "prev_lat": "8.00",
+                "prev_lon": 87.25,
+                "prev_lon_repeat": "447.25"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-273.00",
+                  "8.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.50",
+                "lon": "87.00",
+                "lon_repeat": "-273.00",
+                "valid_time": "2023-12-30T00:00:00",
+                "time_step": 144,
+                "roci": "123.8",
+                "vmax10m_in_roci": "19.95",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1000.2",
+                "prev_lat": "8.00",
+                "prev_lon": 87.25,
+                "prev_lon_repeat": "-272.75"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "87.00",
+                  "8.50"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.50",
+                "lon": "87.00",
+                "lon_repeat": "87.00",
+                "valid_time": "2023-12-30T00:00:00",
+                "time_step": 144,
+                "roci": "123.8",
+                "vmax10m_in_roci": "19.95",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1000.2",
+                "prev_lat": "8.00",
+                "prev_lon": 87.25,
+                "prev_lon_repeat": 87.25
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "447.25",
+                  "8.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.00",
+                "lon": "87.25",
+                "lon_repeat": "447.25",
+                "valid_time": "2023-12-29T18:00:00",
+                "time_step": 138,
+                "roci": "160.8",
+                "vmax10m_in_roci": "21.06",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.5",
+                "prev_lat": "8.25",
+                "prev_lon": 88.5,
+                "prev_lon_repeat": "448.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-272.75",
+                  "8.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.00",
+                "lon": "87.25",
+                "lon_repeat": "-272.75",
+                "valid_time": "2023-12-29T18:00:00",
+                "time_step": 138,
+                "roci": "160.8",
+                "vmax10m_in_roci": "21.06",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.5",
+                "prev_lat": "8.25",
+                "prev_lon": 88.5,
+                "prev_lon_repeat": "-271.50"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "87.25",
+                  "8.00"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.00",
+                "lon": "87.25",
+                "lon_repeat": "87.25",
+                "valid_time": "2023-12-29T18:00:00",
+                "time_step": 138,
+                "roci": "160.8",
+                "vmax10m_in_roci": "21.06",
+                "closed_isobar_delta": 9,
+                "mslp_value": "1001.5",
+                "prev_lat": "8.25",
+                "prev_lon": 88.5,
+                "prev_lon_repeat": 88.5
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "448.50",
+                  "8.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.25",
+                "lon": "88.50",
+                "lon_repeat": "448.50",
+                "valid_time": "2023-12-29T12:00:00",
+                "time_step": 132,
+                "roci": "125.5",
+                "vmax10m_in_roci": "18.82",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.2",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "-271.50",
+                  "8.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.25",
+                "lon": "88.50",
+                "lon_repeat": "-271.50",
+                "valid_time": "2023-12-29T12:00:00",
+                "time_step": 132,
+                "roci": "125.5",
+                "vmax10m_in_roci": "18.82",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.2",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "88.50",
+                  "8.25"
+                ]
+              },
+              "properties": {
+                "model_name": "GFS",
+                "init_time": "2023-12-24T00:00:00",
+                "lat": "8.25",
+                "lon": "88.50",
+                "lon_repeat": "88.50",
+                "valid_time": "2023-12-29T12:00:00",
+                "time_step": 132,
+                "roci": "125.5",
+                "vmax10m_in_roci": "18.82",
+                "closed_isobar_delta": 6,
+                "mslp_value": "1003.2",
+                "prev_lat": null,
+                "prev_lon": null,
+                "prev_lon_repeat": null
+              }
+            }
+          ]
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "springgreen",
+          "fill": true,
+          "fillColor": "springgreen",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "6d546f8ca36f4e6096096613b5256d69": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_35a846e0a6df480097b4ce7c210a2d56"
+        ],
+        "name": "7d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "94a799c41c2443ec9dd7e80a97dd7600": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "yellow",
+          "fill": true,
+          "fillColor": "yellow",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "ff12bb4026cd47ab8fa4601c2752af3b": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_94a799c41c2443ec9dd7e80a97dd7600"
+        ],
+        "name": "5d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "c24ead4825dd44899143999d141e85a1": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {
+          "color": "red",
+          "fill": true,
+          "fillColor": "red",
+          "opacity": 0.6,
+          "radius": 1
+        },
+        "style": {},
+        "subitems": []
+      }
+    },
+    "5ad9f397642c48ea84c8b6815f23a96c": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_c24ead4825dd44899143999d141e85a1"
+        ],
+        "name": "2d",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "1100eca1d5a940a4bd85616d21f89479": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "orchid",
+          "fill": true,
+          "fillColor": "orchid",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "6fef453458a3480eb56260435fe0483e": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_1100eca1d5a940a4bd85616d21f89479"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "b48b477f0bbe47cd8419044bae636eae": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "413.25",
+                    "-22.00"
+                  ],
+                  [
+                    "413.50",
+                    "-22.25"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-306.75",
+                    "-22.00"
+                  ],
+                  [
+                    "-306.50",
+                    "-22.25"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    53.25,
+                    "-22.00"
+                  ],
+                  [
+                    "53.50",
+                    "-22.25"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "413.00",
+                    "-21.50"
+                  ],
+                  [
+                    "413.25",
+                    "-22.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-307.00",
+                    "-21.50"
+                  ],
+                  [
+                    "-306.75",
+                    "-22.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    53.0,
+                    "-21.50"
+                  ],
+                  [
+                    "53.25",
+                    "-22.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "412.50",
+                    "-21.50"
+                  ],
+                  [
+                    "413.00",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-307.50",
+                    "-21.50"
+                  ],
+                  [
+                    "-307.00",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    52.5,
+                    "-21.50"
+                  ],
+                  [
+                    "53.00",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "412.75",
+                    "-21.00"
+                  ],
+                  [
+                    "412.50",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-307.25",
+                    "-21.00"
+                  ],
+                  [
+                    "-307.50",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    52.75,
+                    "-21.00"
+                  ],
+                  [
+                    "52.50",
+                    "-21.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "blue",
+                  "fill": true,
+                  "fillColor": "blue",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            }
+          ]
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "blue",
+          "fill": true,
+          "fillColor": "blue",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "514bed7db2fd4deab378563623a2db12": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_b48b477f0bbe47cd8419044bae636eae"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "8e9e1a3698aa4537951efd7e9404479d": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "darkturquoise",
+          "fill": true,
+          "fillColor": "darkturquoise",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "7c300d04af894b568c70c4d6f677097b": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_8e9e1a3698aa4537951efd7e9404479d"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "1a84870ca95b435ba75b965309dbf8a8": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "445.25",
+                    "9.75"
+                  ],
+                  [
+                    "444.50",
+                    "10.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-274.75",
+                    "9.75"
+                  ],
+                  [
+                    "-275.50",
+                    "10.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    85.25,
+                    "9.75"
+                  ],
+                  [
+                    "84.50",
+                    "10.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "445.75",
+                    "9.75"
+                  ],
+                  [
+                    "445.25",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-274.25",
+                    "9.75"
+                  ],
+                  [
+                    "-274.75",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    85.75,
+                    "9.75"
+                  ],
+                  [
+                    "85.25",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "446.50",
+                    "9.50"
+                  ],
+                  [
+                    "445.75",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-273.50",
+                    "9.50"
+                  ],
+                  [
+                    "-274.25",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    86.5,
+                    "9.50"
+                  ],
+                  [
+                    "85.75",
+                    "9.75"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "447.00",
+                    "8.50"
+                  ],
+                  [
+                    "446.50",
+                    "9.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-273.00",
+                    "8.50"
+                  ],
+                  [
+                    "-273.50",
+                    "9.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    87.0,
+                    "8.50"
+                  ],
+                  [
+                    "86.50",
+                    "9.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "447.25",
+                    "8.00"
+                  ],
+                  [
+                    "447.00",
+                    "8.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-272.75",
+                    "8.00"
+                  ],
+                  [
+                    "-273.00",
+                    "8.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    87.25,
+                    "8.00"
+                  ],
+                  [
+                    "87.00",
+                    "8.50"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "448.50",
+                    "8.25"
+                  ],
+                  [
+                    "447.25",
+                    "8.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    "-271.50",
+                    "8.25"
+                  ],
+                  [
+                    "-272.75",
+                    "8.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    88.5,
+                    "8.25"
+                  ],
+                  [
+                    "87.25",
+                    "8.00"
+                  ]
+                ]
+              },
+              "properties": {
+                "style": {
+                  "color": "springgreen",
+                  "fill": true,
+                  "fillColor": "springgreen",
+                  "opacity": 0.2,
+                  "stroke-width": 7,
+                  "strokeWidth": 9,
+                  "strokewidth": 11,
+                  "width": 13
+                }
+              }
+            }
+          ]
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "springgreen",
+          "fill": true,
+          "fillColor": "springgreen",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "683f9baf17594c7a9eb0fbec93607562": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_1a84870ca95b435ba75b965309dbf8a8"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "1745ece3c13e481da13da0254ed70c38": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "yellow",
+          "fill": true,
+          "fillColor": "yellow",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "c89cfab36dd346a1a6613b85044fd627": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_1745ece3c13e481da13da0254ed70c38"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "c35337d3b1a34445adb40f1888ab50dc": {
+      "model_name": "LeafletGeoJSONModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "data": {
+          "type": "FeatureCollection",
+          "features": []
+        },
+        "hover_style": {},
+        "layers": [],
+        "options": [],
+        "point_style": {},
+        "style": {
+          "color": "red",
+          "fill": true,
+          "fillColor": "red",
+          "opacity": 0.2,
+          "stroke-width": 7,
+          "strokeWidth": 9,
+          "strokewidth": 11,
+          "width": 13
+        },
+        "subitems": []
+      }
+    },
+    "6f4b6424ede34aaba5b2f4cff09efe4c": {
+      "model_name": "LeafletLayerGroupModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "layers": [
+          "IPY_MODEL_c35337d3b1a34445adb40f1888ab50dc"
+        ],
+        "name": "Tracks",
+        "options": [],
+        "subitems": []
+      }
+    },
+    "a81d2dc3d6164c8db1faa7caad80f1aa": {
+      "model_name": "LeafletLayersControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "options": [
+          "position"
+        ]
+      }
+    },
+    "9ed84df72115497e8f6046f6ad68fcfe": {
+      "model_name": "LeafletFullScreenControlModel",
+      "model_module": "jupyter-leaflet",
+      "model_module_version": "^0.17",
+      "state": {
+        "options": [
+          "position"
+        ]
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "af686b5816e343868b3f438da7d4e0bf"}
+</script>
+
+</body>
+</html>
